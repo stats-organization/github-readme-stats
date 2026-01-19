@@ -82,9 +82,9 @@ describe("Test color.js", () => {
       titleColor: "#2f80ed",
       textColor: "#434d58",
       iconColor: "#4c71f2",
+      ringColor: "#2f80ed",
       bgColor: "#fffefe",
       borderColor: "#e4e2e2",
-      theme: "default",
     });
   });
 });
