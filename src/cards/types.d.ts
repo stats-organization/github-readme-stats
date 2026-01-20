@@ -6,7 +6,6 @@ export type CommonOptions = {
   icon_color: string;
   text_color: string;
   bg_color: string;
-  prog_bar_bg_color: string;
   theme: ThemeNames;
   border_radius: number;
   border_color: string;
@@ -47,6 +46,7 @@ export type TopLangOptions = CommonOptions & {
   langs_count: number;
   disable_animations: boolean;
   hide_progress: boolean;
+  prog_bar_bg_color: string;
   stats_format: "percentages" | "bytes";
 };
 
